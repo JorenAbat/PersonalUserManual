@@ -38,10 +38,11 @@ This website presents a comprehensive guide to working with me, including my com
 
 ```
 PersonalManual/
+├── images/
+│   └── Joren_Logo_transparent.png  # Logo image
 ├── index.html          # Main HTML file
 ├── styles.css          # All CSS styles
 ├── script.js           # JavaScript functionality
-├── Joren_Logo_transparent.png  # Logo image
 ├── .gitignore          # Git ignore file
 └── README.md           # This file
 ```
