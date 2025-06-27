@@ -1,0 +1,22 @@
+# Ignore docs directory
+.docs/
+
+# Common files to ignore
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if needed later)
+node_modules/
+
+# Build files
+dist/
+build/ 

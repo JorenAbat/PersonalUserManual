@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joren - Personal User Manual</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="nav-title">Joren</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#work-with-me" class="nav-link">Work With Me</a>
+                <a href="#communication" class="nav-link">Communication</a>
+                <a href="#values" class="nav-link">Values</a>
+                <a href="#favorites" class="nav-link">Favorites</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="/images/Joren_Logo_transparent.png" alt="Joren Logo" class="hero-logo-img">
+            </div>
+            <h1 class="hero-title">Personal User Manual</h1>
+            <p class="hero-subtitle">Getting the best out of working with me</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">27</span>
+                    <span class="stat-label">Years Old</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">INFP</span>
+                    <span class="stat-label">Personality</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">Tech</span>
+                    <span class="stat-label">Problem Solver</span>
+                </div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('about')">Get To Know Me</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">👨‍💻</div>
+                    <h3>The Basics</h3>
+                    <ul>
+                        <li><strong>Call me:</strong> Joren</li>
+                        <li><strong>Don't call me:</strong> Jordan</li>
+                        <li><strong>Location:</strong> Brampton, Ontario</li>
+                        <li><strong>Languages:</strong> English, French</li>
+                        <li><strong>Height:</strong> 5'7" (170cm)</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🧠</div>
+                    <h3>My Strengths</h3>
+                    <ul>
+                        <li>Problem solving with limited information</li>
+                        <li>Creative solution thinking</li>
+                        <li>Technology troubleshooting</li>
+                        <li>Google search expertise</li>
+                        <li>Thoughtful listening</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">⚠️</div>
+                    <h3>Important Notes</h3>
+                    <ul>
+                        <li>I have ADHD - affects focus and organization</li>
+                        <li>Introverted personality</li>
+                        <li>Prefer written communication</li>
+                        <li>Need quiet environments to thrive</li>
+                        <li>Wear glasses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work With Me Section -->
+    <section id="work-with-me" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">How To Work With Me</h2>
+            <div class="work-grid">
+                <div class="work-card">
+                    <h3>✅ I Thrive When...</h3>
+                    <ul>
+                        <li>Working from home in silence</li>
+                        <li>Listening to lo-fi music</li>
+                        <li>Having advance notice (1+ week)</li>
+                        <li>Communicating through text/email</li>
+                        <li>Working in small teams (2-4 people)</li>
+                        <li>Having clear, structured information</li>
+                    </ul>
+                </div>
+                <div class="work-card">
+                    <h3>❌ I Struggle When...</h3>
+                    <ul>
+                        <li>In loud or crowded environments</li>
+                        <li>Being interrupted while focused</li>
+                        <li>Dealing with last-minute changes</li>
+                        <li>Handling confrontational situations</li>
+                        <li>Excluded from conversations</li>
+                        <li>Rushed or under time pressure</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="schedule-container">
+                <h3>My Schedule</h3>
+                <div class="schedule-grid">
+                    <div class="schedule-item productive">
+                        <strong>Most Productive:</strong> 12PM - 5PM EST
+                    </div>
+                    <div class="schedule-item available">
+                        <strong>Available:</strong> Weekdays (except Tuesdays) 11AM - 5PM EST
+                    </div>
+                    <div class="schedule-item downtime">
+                        <strong>Downtime:</strong> After 5PM EST and before 9AM EST
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Communication Section -->
+    <section id="communication" class="section">
+        <div class="container">
+            <h2 class="section-title">Communication Style</h2>
+            <div class="comm-grid">
+                <div class="comm-card">
+                    <h3>📝 Preferred Methods</h3>
+                    <div class="method-list">
+                        <div class="method-item best">
+                            <span class="method-icon">✉️</span>
+                            <div>
+                                <strong>Email/Text</strong>
+                                <p>Best for most communication</p>
+                            </div>
+                        </div>
+                        <div class="method-item good">
+                            <span class="method-icon">💬</span>
+                            <div>
+                                <strong>Messaging Apps</strong>
+                                <p>Great for quick check-ins</p>
+                            </div>
+                        </div>
+                        <div class="method-item limited">
+                            <span class="method-icon">📞</span>
+                            <div>
+                                <strong>Phone Calls</strong>
+                                <p>Only for urgent matters</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comm-card">
+                    <h3>💬 How To Approach Me</h3>
+                    <div class="approach-list">
+                        <div class="approach-item">
+                            <strong>For Feedback:</strong> In writing, positive first, then improvements
+                        </div>
+                        <div class="approach-item">
+                            <strong>For Questions:</strong> In writing, encourage my opinions
+                        </div>
+                        <div class="approach-item">
+                            <strong>To Disagree:</strong> Acknowledge my point first
+                        </div>
+                        <div class="approach-item">
+                            <strong>When I'm Stressed:</strong> Give space, then offer support
+                        </div>
+                        <div class="approach-item">
+                            <strong>Response Time:</strong> Within 1 business day
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">My Values & Motivations</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <h3>💎 What I Value</h3>
+                    <div class="value-category">
+                        <h4>In Myself:</h4>
+                        <p>Continuous self-improvement, problem-solving abilities, authenticity, being helpful to others</p>
+                    </div>
+                    <div class="value-category">
+                        <h4>In Others:</h4>
+                        <p>Clear communication, respect, honesty, mutual understanding</p>
+                    </div>
+                    <div class="value-category">
+                        <h4>In Work:</h4>
+                        <p>Efficiency, continuous learning, helping others with technology</p>
+                    </div>
+                </div>
+                <div class="value-card">
+                    <h3>⚡ What Energizes Me</h3>
+                    <ul>
+                        <li>Creative projects & video editing</li>
+                        <li>Playing video games</li>
+                        <li>Reading manga</li>
+                        <li>3D printing & home labbing</li>
+                        <li>Strength training & walking</li>
+                        <li>Japanese food (especially takoyaki)</li>
+                    </ul>
+                </div>
+                <div class="value-card">
+                    <h3>🚫 What Drains Me</h3>
+                    <ul>
+                        <li>Office politics & gossip</li>
+                        <li>Superficial conversations</li>
+                        <li>Unnecessary meetings</li>
+                        <li>Rigid schedules</li>
+                        <li>Loud environments</li>
+                        <li>Last-minute changes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Favorites Section -->
+    <section id="favorites" class="section">
+        <div class="container">
+            <h2 class="section-title">My Favorites</h2>
+            <div class="favorites-grid">
+                <div class="fav-card">
+                    <h3>🎮 Entertainment</h3>
+                    <div class="fav-list">
+                        <div class="fav-item">
+                            <strong>Games:</strong> Nintendo titles, Pokemon
+                        </div>
+                        <div class="fav-item">
+                            <strong>Anime:</strong> Frieren, Pokemon, Konosuba
+                        </div>
+                        <div class="fav-item">
+                            <strong>Movies:</strong> Your Name, Frozen, Iron Man
+                        </div>
+                        <div class="fav-item">
+                            <strong>Books:</strong> Percy Jackson series, Manga
+                        </div>
+                    </div>
+                </div>
+                <div class="fav-card">
+                    <h3>🍱 Food & Places</h3>
+                    <div class="fav-list">
+                        <div class="fav-item">
+                            <strong>Food:</strong> Sushi, Ramen, Pizza, Takoyaki
+                        </div>
+                        <div class="fav-item">
+                            <strong>Cuisine:</strong> Japanese, Korean
+                        </div>
+                        <div class="fav-item">
+                            <strong>Drinks:</strong> Water, Tea
+                        </div>
+                        <div class="fav-item">
+                            <strong>Places:</strong> Home, Libraries
+                        </div>
+                    </div>
+                </div>
+                <div class="fav-card">
+                    <h3>🎵 Music & More</h3>
+                    <div class="fav-list">
+                        <div class="fav-item">
+                            <strong>Music:</strong> Lo-fi, Punk pop, Future Bass
+                        </div>
+                        <div class="fav-item">
+                            <strong>Seasons:</strong> Fall, Spring
+                        </div>
+                        <div class="fav-item">
+                            <strong>Sports:</strong> Basketball, Ping Pong
+                        </div>
+                        <div class="fav-item">
+                            <strong>Quote:</strong> "Sometimes too many coincidences point to no coincidence at all" - Matthew Patrick
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">What Others Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Joren seems quiet at first, but when you encourage him to talk and be part of conversations, he gives off very friendly vibes. :) He's also a great listener and is receptive to body language, in case you feel uncomfortable in a certain situation."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Kellsy ❤️</strong>
+                        <span>Partner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>Joren's Personal User Manual</span>
+                </div>
+                <div class="footer-info">
+                    <p>Ready to work together? Reach out via email or text for the best response!</p>
+                    <p class="footer-note">Remember: I have ADHD, so if I interrupt or zone out, it's not personal. 😊</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
