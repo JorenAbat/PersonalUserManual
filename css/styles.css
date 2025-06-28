@@ -1084,4 +1084,88 @@ html {
         break-inside: avoid;
         page-break-inside: avoid;
     }
+}
+
+/* Branding Section */
+.brand-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.brand-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 32px 32px 32px 32px;
+    gap: 32px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 40px auto;
+    transition: var(--transition);
+    min-height: 220px;
+}
+
+.brand-logo-container {
+    flex: 0 0 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.brand-logo-img {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 20px rgba(220, 38, 38, 0.15));
+    background: transparent;
+    display: block;
+}
+
+.brand-description {
+    flex: 1 1 0;
+    color: var(--primary-black);
+    text-align: left;
+    padding-left: 12px;
+}
+
+.brand-description h3 {
+    color: var(--primary-red);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.brand-description p {
+    color: var(--dark-gray);
+    font-size: 1rem;
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+    .brand-card {
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px 8px 20px 8px;
+        max-width: 98vw;
+        min-height: unset;
+    }
+    .brand-logo-container {
+        flex: none;
+    }
+    .brand-logo-img {
+        width: 180px;
+        max-width: 90vw;
+    }
+    .brand-description {
+        padding-left: 0;
+        text-align: center;
+    }
 } 
