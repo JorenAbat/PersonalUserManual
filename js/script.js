@@ -88,7 +88,7 @@ const observer = new IntersectionObserver((entries) => {
 // Observe all cards and sections for animations
 document.addEventListener('DOMContentLoaded', () => {
     const animatedElements = document.querySelectorAll(
-        '.about-card, .work-card, .comm-card, .value-card, .fav-card, .testimonial-card'
+        '.about-card, .work-card, .comm-card, .value-card, .fav-card, .testimonial-card, .conversation-card, .cues-card, .misunderstanding-card'
     );
     
     animatedElements.forEach(el => {
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Add some interactive hover effects for cards
 document.addEventListener('DOMContentLoaded', () => {
-    const cards = document.querySelectorAll('.about-card, .work-card, .comm-card, .value-card, .fav-card');
+    const cards = document.querySelectorAll('.about-card, .work-card, .comm-card, .value-card, .fav-card, .conversation-card, .cues-card, .misunderstanding-card');
     
     cards.forEach(card => {
         card.addEventListener('mouseenter', () => {
